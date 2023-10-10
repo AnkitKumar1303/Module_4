@@ -6,6 +6,7 @@ const colors = [
     '#27ae60', '#d35400', '#2980b9', '#f39c12', '#bdc3c7'
 ];
 
+
 btn.addEventListener('click', function() {
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = randomColor;
